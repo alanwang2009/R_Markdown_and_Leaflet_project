@@ -1,0 +1,15 @@
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r cars, echo = TRUE,fig.align='center'}
+library(leaflet)
+
+leaflet()%>%
+addTiles()%>%
+addMarkers(lat=31.22,lng=121.5,popup="Shanghai")
+```
+
+
